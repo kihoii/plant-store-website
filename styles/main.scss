@@ -1,0 +1,18 @@
+@import "common";
+@import "navbar";
+@import "front-section";
+@import "new-plants";
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+#front {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.5)), url("../assets/banners/front.png");
+    background-size: cover;
+    background-position: center;
+    padding: 30px 100px 160px 30px;
+}
