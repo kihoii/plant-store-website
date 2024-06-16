@@ -1,0 +1,26 @@
+@import "variables";
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.nav-left {
+    font-size: 40px;
+}
+
+.nav-right {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 46px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}

@@ -1,1 +1,51 @@
-@import "common"
+@import "common";
+@import "navbar";
+
+#front {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.5)), url("./assets/banners/front.png");
+    background-size: cover;
+    background-position: center;
+    padding: 30px 100px 160px 30px;
+}
+
+.front-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 183px;
+}
+
+.front-text {
+    font-family: Sora, sans-serif;
+    color: white;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 160%;
+}
+
+.slogan {
+    font-size: 60px;
+    text-align: center;
+}
+
+.white-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 33px;
+}
