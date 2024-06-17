@@ -1,0 +1,63 @@
+@import "variables";
+
+.feedback-section {
+    flex-direction: column;
+    gap: 70px;
+}
+
+.feedback-section-title hr {
+    width: 9%;
+    height: 2px;
+    margin: 20px auto 0 auto;
+    background-color: $green-very-light;
+    border: 0px;
+    opacity: 20%;
+}
+
+.feedback-section-comma {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: $green-dark;
+    opacity: 40%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.feedback-cards-group {
+    display: flex;
+    gap: 110px;
+}
+
+.feedback-card {
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-text {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+
+.feedback-photo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.feedback-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
