@@ -4,6 +4,7 @@
 @import "new-plants-section";
 @import "our-story-section";
 @import "feedback-section";
+@import "gift-cards-section";
 
 body {
     display: flex;
@@ -23,6 +24,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-#our-story {}
-
-#feedback {}
+#gift-cards {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../assets/banners/gift-cards.png");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}

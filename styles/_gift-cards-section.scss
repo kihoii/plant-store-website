@@ -1,0 +1,30 @@
+.gift-cards-text {
+    font-family: "Sora", sans-serif;
+    color: white;
+    margin-top: 225px;
+    margin-bottom: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        margin-top: 20px;
+        font-size: 65px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    h3,
+    h4,
+    p {
+        font-weight: 400;
+    }
+}
