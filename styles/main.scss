@@ -1,7 +1,9 @@
 @import "common";
 @import "navbar";
 @import "front-section";
-@import "new-plants";
+@import "new-plants-section";
+@import "our-story-section";
+@import "feedback-section";
 
 body {
     display: flex;
@@ -20,3 +22,7 @@ body {
 #new-plants {
     font-family: "Poppins", sans-serif;
 }
+
+#our-story {}
+
+#feedback {}

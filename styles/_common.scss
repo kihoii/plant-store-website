@@ -28,12 +28,14 @@
 }
 
 .green {
-    display: inline;
+    border-radius: 10px;
+    padding: 12px 39px;
     color: white;
-    background-color: $green-button;
+    background-color: $green-light;
 }
 
 .wide {
+    border-radius: 5px;
     padding-right: 71px;
     padding-left: 71px;
 }

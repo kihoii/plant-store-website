@@ -1,0 +1,45 @@
+@import "variables";
+
+.our-story-section {
+    display: flex;
+    gap: 110px;
+}
+
+.our-story-banner {
+    width: 570px;
+    height: 650px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.our-story-head {
+    margin-bottom: 35px;
+
+    h3 {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 3px;
+        line-height: 160%;
+        color: $green-light;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-family: Sora, sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
+
+.our-story-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 160%;
+    margin-bottom: 55px;
+}
