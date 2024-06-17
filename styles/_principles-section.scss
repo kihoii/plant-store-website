@@ -1,0 +1,43 @@
+@import "variables";
+
+.principles-group {
+    gap: 110px;
+    justify-content: center;
+}
+
+.principle-card {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 15px;
+}
+
+.principle-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $green-bright;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 21px;
+    }
+}
+
+.principle-text {
+    h4 {
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 90%;
+        letter-spacing: 1.5px;
+        margin-bottom: 14px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        opacity: 70%;
+    }
+}
