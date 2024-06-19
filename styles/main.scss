@@ -6,6 +6,7 @@
 @import "feedback-section";
 @import "gift-cards-section";
 @import "principles-section";
+@import "get-in-touch-section";
 
 body {
     display: flex;
@@ -32,4 +33,9 @@ body {
     background-size: cover;
     background-position: center;
     height: 700px;
+}
+
+#get-in-touch {
+    font-family: "Sora", sans-serif;
+    background-color: $get-in-touch-background;
 }
