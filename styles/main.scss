@@ -15,10 +15,11 @@ body {
 
 #front {
     background: linear-gradient(rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.5)), url("../assets/banners/front.png");
+            rgba(0, 0, 0, 0.2)), url("../assets/banners/front.png");
     background-size: cover;
     background-position: center;
     padding: 30px 100px 160px 30px;
+    min-height: 750px;
 }
 
 #new-plants {

@@ -1,6 +1,7 @@
 @import "variables";
 
 .principles-group {
+    display: flex;
     gap: 110px;
     justify-content: center;
 }
