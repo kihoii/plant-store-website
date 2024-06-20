@@ -12,6 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 150px;
+
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
 }
 
 #front {
