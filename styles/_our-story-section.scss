@@ -29,17 +29,19 @@
         font-family: "Sora", sans-serif;
         font-weight: 400;
         font-size: 40px;
+        margin-right: 1px;
     }
 }
 
 .our-story-text {
+    width: 556px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 160%;
     margin-bottom: 55px;
 }

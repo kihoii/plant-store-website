@@ -25,6 +25,8 @@
 
         p {
             width: 580px;
+            letter-spacing: 0.75px;
+            line-height: 140%;
             font-weight: 400;
             font-size: 16px;
         }
@@ -59,6 +61,7 @@
         h4 {
             font-size: 16px;
             font-weight: 400;
+            margin-bottom: 15px;
         }
 
         p {
@@ -118,7 +121,6 @@
 
 .contact-form-input {
 
-
     label {
         font-size: 16px;
         font-weight: 400;
@@ -141,5 +143,6 @@
 
     #comment {
         height: 110px;
+        margin-bottom: 10px;
     }
 }
