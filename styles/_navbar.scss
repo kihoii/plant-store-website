@@ -1,9 +1,10 @@
 @import "variables";
 
 .nav-main {
+    padding-top: 30px;
+    width: 1312px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 609px;
     font-family: "Roboto", sans-serif;
     color: white;
 }

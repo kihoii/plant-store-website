@@ -22,9 +22,10 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.2),
             rgba(0, 0, 0, 0.2)), url("../assets/banners/front.png");
     background-size: cover;
-    background-position: center;
-    padding: 30px 100px 160px 30px;
+    background-position: 50% 49%;
     min-height: 750px;
+    display: flex;
+    flex-direction: column;
 }
 
 #new-plants {
@@ -42,4 +43,11 @@ body {
 #get-in-touch {
     font-family: "Sora", sans-serif;
     background-color: $get-in-touch-background;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
 }
