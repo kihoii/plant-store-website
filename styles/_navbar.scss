@@ -17,6 +17,7 @@
     font-size: 18px;
     font-weight: 500;
     display: flex;
+    align-items: center;
     gap: 46px;
     text-align: center;
 }
@@ -24,4 +25,13 @@
 .nav-link {
     color: white;
     text-decoration: none;
+}
+
+.cart {
+    width: 25px;
+}
+
+.burger {
+    width: 20px;
+    margin-left: 5px;
 }

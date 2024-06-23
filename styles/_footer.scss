@@ -17,7 +17,6 @@
     font-weight: 400;
 }
 
-
 .footer-box {
     display: flex;
     align-items: start;
@@ -55,6 +54,7 @@
 .links-group {
     display: flex;
     flex-direction: column;
+    line-height: 160%;
     gap: 8px;
     font-size: 16px;
     font-weight: 400;

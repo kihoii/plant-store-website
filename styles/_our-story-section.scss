@@ -9,7 +9,7 @@
     width: 570px;
     height: 650px;
     object-fit: cover;
-    object-position: top;
+    object-position: 50% 15%;
     border-radius: 10px;
 }
 
@@ -20,7 +20,7 @@
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         line-height: 160%;
         color: $green-light;
         margin-bottom: 15px;
@@ -30,7 +30,6 @@
         font-family: "Sora", sans-serif;
         font-weight: 400;
         font-size: 40px;
-        margin-right: 1px;
     }
 }
 
