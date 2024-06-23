@@ -4,7 +4,8 @@
     padding-top: 30px;
     width: 1312px;
     display: flex;
-    gap: 609px;
+    align-self: center;
+    justify-content: space-between;
     font-family: "Roboto", sans-serif;
     color: white;
 }
@@ -27,11 +28,11 @@
     text-decoration: none;
 }
 
-.cart {
+.cart img {
     width: 25px;
 }
 
-.burger {
+.burger img {
     width: 20px;
     margin-left: 5px;
 }

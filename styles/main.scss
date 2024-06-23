@@ -8,6 +8,7 @@
 @import "principles-section";
 @import "get-in-touch-section";
 @import "footer";
+@import "mobile";
 
 body {
     display: flex;
@@ -23,7 +24,7 @@ body {
             rgba(0, 0, 0, 0.2)), url("../assets/banners/front.png");
     background-size: cover;
     background-position: 50% 49%;
-    min-height: 750px;
+    //height: 750px;
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +38,7 @@ body {
             rgba(0, 0, 0, 0.5)), url("../assets/banners/gift-cards.png");
     background-size: cover;
     background-position: center;
-    height: 700px;
+    //height: 700px;
 }
 
 #get-in-touch {

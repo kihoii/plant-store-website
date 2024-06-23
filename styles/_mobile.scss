@@ -1,0 +1,168 @@
+@media (300px < width < 700px) {
+
+    .mobile-hide {
+        display: none;
+    }
+
+    body {
+        gap: 100px !important;
+    }
+
+    .container,
+    .nav-main {
+        width: 90%;
+    }
+
+    #front,
+    #gift-cards {
+        background-size: 200% !important;
+    }
+
+    .nav-left {
+        font-size: 25px;
+    }
+
+    .nav-right {
+        gap: 15px;
+    }
+
+    .front-container {
+        margin-top: 80px;
+        padding-bottom: 50px;
+
+        .front-text {
+            gap: 4px;
+        }
+
+        .welcome-text {
+            font-size: 10px;
+        }
+
+        .slogan {
+            font-size: 40px;
+        }
+    }
+
+    button {
+        zoom: 0.8;
+    }
+
+    .plant-card {
+        zoom: 0.8;
+    }
+
+    .our-story-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .our-story-head {
+
+        h3,
+        h4 {
+            text-align: center;
+        }
+    }
+
+    .our-story-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-story-text {
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .gift-cards-text {
+        margin: 150px 0;
+
+        h4 {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        p {
+            text-align: center;
+            padding: 0 auto;
+        }
+    }
+
+    .principles-group {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .get-in-touch-section {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px 0;
+    }
+
+    .get-in-touch-info {
+        gap: 30px;
+        zoom: 0.9;
+
+        .head {
+            h3 {
+                text-align: center;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+    }
+
+    .contacts-group {
+        .websites {
+            align-self: center;
+        }
+    }
+
+    .get-in-touch-form {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .contact-form-input {
+        width: 100%;
+
+        input {
+            width: 100%;
+        }
+    }
+
+    .footer-box,
+    .copyrights-box {
+        gap: 0px;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .footer-links {
+        padding: 40px;
+    }
+
+    .footer-links-column {
+        text-align: right;
+    }
+
+    .footer-links-group {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .copyrights-box {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}

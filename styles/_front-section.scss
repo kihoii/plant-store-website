@@ -4,27 +4,28 @@
     align-items: center;
     gap: 80px;
     margin-top: 183px;
-}
+    padding-bottom: 160px;
 
-.front-text {
-    font-family: Sora, sans-serif;
-    font-weight: 400;
-    color: white;
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    align-items: center;
-}
+    .front-text {
+        font-family: Sora, sans-serif;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.welcome-text {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    line-height: 160%;
-}
+    .welcome-text {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 160%;
+    }
 
-.slogan {
-    font-size: 60px;
-    text-align: center;
-    font-weight: 400;
+    .slogan {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 400;
+    }
 }
