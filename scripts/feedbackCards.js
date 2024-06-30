@@ -20,10 +20,12 @@ const divFeedback = document.querySelector(".feedback-cards-group");
 
 feedbacks.forEach(element => {
     divFeedback.innerHTML += `
+    <li class="splide__slide">
         <div class="feedback-card">
             <div class="feedback-section-comma">‘‘</div>
             <div class="feedback-text">${element.text}</div>
             <img class="feedback-photo" src="${element.photo}" alt="">
             <div class="feedback-name">${element.name}</div>
-        </div>`
+        </div>
+    </li>`
 });

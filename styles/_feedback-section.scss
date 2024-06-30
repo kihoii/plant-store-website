@@ -1,8 +1,16 @@
 @import "variables";
 
-.feedback-section {
-    flex-direction: column;
-    gap: 70px;
+@media (width > 900px) {
+    .feedback-section {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .feedback-cards-group {
+        display: flex !important;
+        gap: 110px;
+    }
 }
 
 .feedback-section-title hr {
@@ -18,15 +26,9 @@
     font-family: "Sora", sans-serif;
     font-weight: 400;
     font-size: 64px;
-    color: $green-dark;
-    opacity: 40%;
+    color: $green-dark-04;
     text-align: center;
     margin-bottom: -17px;
-}
-
-.feedback-cards-group {
-    display: flex;
-    gap: 110px;
 }
 
 .feedback-card {

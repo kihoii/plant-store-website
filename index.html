@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;600;700;900&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -36,10 +37,10 @@
             <button type="button" class="white button">Shop Now</button>
         </div>
     </section>
-    <section id="new-plants" class="container">
-        <div class="box new-plants-section">
+    <section id="new-plants" class="splide container" role="group" aria-label="Splide Basic HTML Example">
+        <div class="new-plants-section splide__track">
             <h3 class="section-title">New Plants</h3>
-            <div class="plants-group"></div>
+            <ul class="splide__list plants-group"></ul>
             <button type="button" class="green button wide">Shop Now</button>
         </div>
     </section>
@@ -63,13 +64,13 @@
             </div>
         </div>
     </section>
-    <section id="feedback" class="container">
-        <div class="box feedback-section">
+    <section id="feedback" class="splide container" role="group" aria-label="Splide Basic HTML Example">
+        <div class="feedback-section splide__track">
             <div class="feedback-section-title">
                 <h3 class="section-title">What Our Customer Say</h3>
                 <hr>
             </div>
-            <div class="feedback-cards-group"></div>
+            <div class="splide__list feedback-cards-group"></div>
         </div>
     </section>
     <section id="gift-cards">
@@ -229,6 +230,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./scripts/splide.js"></script>
     <script src="./scripts/newPlantsCards.js"></script>
     <script src="./scripts/feedbackCards.js"></script>
 </body>

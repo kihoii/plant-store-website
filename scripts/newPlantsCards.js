@@ -35,11 +35,13 @@ const divNewPlants = document.querySelector(".plants-group");
 
 newPlants.forEach(element => {
     divNewPlants.innerHTML += `
+    <li class="splide__slide">
         <div class="plant-card">
             <img class="plant-image" src="${element.image}" alt="">
-                <div class="plant-description">
-                    <h4 class="plant-name">${element.name}</h4>
-                    <p class="plant-price">$${element.price}</p>
-                </div>
-        </div>`
+            <div class="plant-description">
+                <h4 class="plant-name">${element.name}</h4>
+                <p class="plant-price">$${element.price}</p>
+            </div>
+        </div>
+    </li>`
 });

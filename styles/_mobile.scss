@@ -1,4 +1,6 @@
-@media (300px < width < 700px) {
+@import "variables";
+
+@media (300px < width < 900px) {
 
     .mobile-hide {
         display: none;
@@ -6,6 +8,20 @@
 
     body {
         gap: 100px !important;
+    }
+
+    .splide__slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .splide__arrows button {
+        margin-top: 150px;
+        background-color: $green-dark-04;
+
+        svg {
+            fill: white;
+        }
     }
 
     .container,
@@ -47,8 +63,21 @@
         zoom: 0.8;
     }
 
+    .new-plants-section {
+        text-align: center;
+
+        button {
+            margin-top: 35px;
+        }
+
+        h3 {
+            margin-bottom: 35px;
+        }
+    }
+
     .plant-card {
-        zoom: 0.8;
+        text-align: start;
+        zoom: 0.7;
     }
 
     .our-story-section {
@@ -77,6 +106,14 @@
     .our-story-text {
         width: 90%;
         padding-right: 0;
+    }
+
+    .feedback-card {
+        text-align: center;
+    }
+
+    .feedback-section-title {
+        margin-bottom: 35px;
     }
 
     .gift-cards-text {
